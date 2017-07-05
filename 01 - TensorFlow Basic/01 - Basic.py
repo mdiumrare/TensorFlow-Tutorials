@@ -1,3 +1,6 @@
+# vs 사용 시 나타나는 컴파일 경고문을 제거합니다. 1=INFO, 2=WARNING, 3=ERROR
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 # 텐서플로우의 기본적인 구성을 익힙니다.
 import tensorflow as tf
 
